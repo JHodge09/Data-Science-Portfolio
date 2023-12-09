@@ -1,0 +1,30 @@
+---
+title: "JHodge09"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+Hi,
+
+My name is Jeremy Hodge. I'm a data analyst that has been in the healthcare industry for almost a decade. In my line of work I specialize in Excel, SQL, and data cleansing.
+
+![](images/image-1750444454.png)
+
+Below is a link to my resume.
+
+https://github.com/JHodge09/Data-Science-Portfolio/blob/main/128_Jeremy_Hodge_Resume.pdf
+
+For the topic of the blog, I would like to discuss Random Forest. This method is valuable due to high accuracy, mitigating over fitting, detecting outliers, and handling missing values. Below, I provided some of the code used with Random Forest.
+
+\# Train the random forest model with default parameters
+
+rf_default \<- randomForest(hlth \~ ., data = OFP_train)
+
+In conclusion, Random Forest is useful for being able to create accurate predictions, reducing overfitting, and dealing with missing data, this makes Random Forest a valuable tool in machine learning.
